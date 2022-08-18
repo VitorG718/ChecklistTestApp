@@ -11,6 +11,9 @@
 		505A2F8528AD789F00C6657F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505A2F8428AD789F00C6657F /* ContentView.swift */; };
 		505A2F8728AD78A200C6657F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 505A2F8628AD78A200C6657F /* Assets.xcassets */; };
 		505A2F8A28AD78A200C6657F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 505A2F8928AD78A200C6657F /* Preview Assets.xcassets */; };
+		509FD28B28AEB5E600834C6E /* Source.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509FD28A28AEB5E500834C6E /* Source.swift */; };
+		509FD28E28AEB6CD00834C6E /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509FD28D28AEB6CD00834C6E /* SearchResult.swift */; };
+		509FD29028AEB6DA00834C6E /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509FD28F28AEB6DA00834C6E /* Article.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,10 @@
 		505A2F8428AD789F00C6657F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		505A2F8628AD78A200C6657F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		505A2F8928AD78A200C6657F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		505A2F9028AD78C700C6657F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		509FD28A28AEB5E500834C6E /* Source.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Source.swift; sourceTree = "<group>"; };
+		509FD28D28AEB6CD00834C6E /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
+		509FD28F28AEB6DA00834C6E /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +58,8 @@
 		505A2F8128AD789F00C6657F /* ChecklistTestApp */ = {
 			isa = PBXGroup;
 			children = (
+				509FD28C28AEB6BA00834C6E /* Models */,
+				505A2F9028AD78C700C6657F /* Info.plist */,
 				505A2F8228AD789F00C6657F /* ChecklistTestAppApp.swift */,
 				505A2F8428AD789F00C6657F /* ContentView.swift */,
 				505A2F8628AD78A200C6657F /* Assets.xcassets */,
@@ -65,6 +74,16 @@
 				505A2F8928AD78A200C6657F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		509FD28C28AEB6BA00834C6E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				509FD28D28AEB6CD00834C6E /* SearchResult.swift */,
+				509FD28F28AEB6DA00834C6E /* Article.swift */,
+				509FD28A28AEB5E500834C6E /* Source.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +156,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				509FD28B28AEB5E600834C6E /* Source.swift in Sources */,
 				505A2F8528AD789F00C6657F /* ContentView.swift in Sources */,
+				509FD28E28AEB6CD00834C6E /* SearchResult.swift in Sources */,
 				505A2F8328AD789F00C6657F /* ChecklistTestAppApp.swift in Sources */,
+				509FD29028AEB6DA00834C6E /* Article.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,9 +291,12 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ChecklistTestApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChecklistTestApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Articles;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -283,7 +308,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -297,9 +322,12 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ChecklistTestApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChecklistTestApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Articles;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -311,7 +339,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
