@@ -1,0 +1,45 @@
+{
+    "status": "ok",
+    "totalResults": 33,
+    "articles": [
+        {
+            "source": {
+                "id": null,
+                "name": "Uol.com.br"
+            },
+            "author": "UOL",
+            "title": "São Paulo sofre, mas elimina América-MG da Copa do Brasil; assista aos gols - UOL Esporte",
+            "description": "América-MG e São Paulo se enfrentaram nesta noite pela partida de volta das quartas de final da Copa do Brasil. O duelo aconteceu no Independência, em Belo Horizonte, e acabou em 2 a 2 (assista aos gols abaixo).O time paulista, que havia vencido a partida",
+            "url": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2022/08/18/copa-do-brasil-america-sao-paulo-assista-aos-gols.htm",
+            "urlToImage": "https://conteudo.imguol.com.br/c/esporte/69/2022/08/18/luciano-do-sao-paulo-comemora-gol-contra-contra-o-america-mg-pela-copa-do-brasil-1660869931916_v2_615x300.jpg",
+            "publishedAt": "2022-08-19T02:01:47Z",
+            "content": "América-MG e São Paulo se enfrentaram nesta noite pela partida de volta das quartas de final da Copa do Brasil. O duelo aconteceu no Independência, em Belo Horizonte, e acabou em 2 a 2 (assista aos g… [+1467 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Bolavip"
+            },
+            "author": "Ysac Freitas",
+            "title": "Personalidades do meio artístico repercutem na web o fim da dupla Simone e Simaria: \"Que Deus abençoe a vid... - Bolavip Brasil",
+            "description": "O meio artístico também está abalado com o anúncio do fim da dupla",
+            "url": "https://br.bolavip.com/entretenimento/Personalidades-do-meio-artistico-repercutem-na-web-o-fim-da-dupla-Simone-e-Simaria-Que-Deus-abencoe-a-vida-de-voces...-20220818-0192.html",
+            "urlToImage": "https://bolavip.com/__export/1660871880751/sites/bolavip/img/2022/08/18/271938371_940501926582317_7051050272468068265_n_crop1660871634793.jpg_242310155.jpg",
+            "publishedAt": "2022-08-19T01:29:58Z",
+            "content": "Não tá fácil pra quem é fã de verdade da Simone e Simaria. Um dos assuntos mais repercutidos nesta quinta-feira (18), foi o fim das carreiras conjutas. Como todos ou a maioria já sabem, as sertanejas… [+1093 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Em.com.br"
+            },
+            "author": "Ana Mendonça",
+            "title": "Lula em BH: Chico Pinheiro se empolga, 'rouba a cena' e cita dados errados - Estado de Minas",
+            "description": "Jornalista que apresentou o comício na Praça da Estação elevou o número de pessoas presentes e errou ao informar dados de pesquisa",
+            "url": "https://www.em.com.br/app/noticia/politica/2022/08/18/interna_politica,1387556/lula-em-bh-chico-pinheiro-se-empolga-rouba-a-cena-e-cita-dados-errados.shtml",
+            "urlToImage": "https://i.em.com.br/YGDz2baGmrXu3MwY35gjl02vMq8=/600x315/smart/imgsapp.em.com.br/app/noticia_127983242361/2022/08/18/1387556/chico-pinheiro-ao-lado-da-cantora-aline-calixto_1_151272.jpg",
+            "publishedAt": "2022-08-18T23:35:00Z",
+            "content": "A presena de Chico Pinheiro no ato de lanamento de candidatura do ex-presidente Luiz Incio Lula da Silva (PT) acabou sendo marcada pela divulgao de dados errados.Em um momento da fala, o jornalista a… [+966 chars]"
+        }
+    ]
+}

@@ -1,0 +1,71 @@
+{
+    "status": "ok",
+    "totalResults": 13383,
+    "articles": [
+        {
+            "source": {
+                "id": "globo",
+                "name": "Globo"
+            },
+            "author": null,
+            "title": "Presidente do STF volta a tornar Eduardo Cunha inelegível",
+            "description": "O presidente do STF (Supremo Tribunal Federal), Luiz Fux, aceitou nesta quinta-feira (18) recurso do Ministério Público e voltou a tornar o ex-presidente da Câmara dos Deputados Eduardo Cunha inelegível.\n Matéria exclusiva para assinantes. Para ter acesso com…",
+            "url": "https://valor.globo.com/noticia/2022/08/18/presidente-do-stf-volta-a-tornar-eduardo-cunha-inelegvel.ghtml",
+            "urlToImage": "https://s2.glbimg.com/GfWXq-wQzIzmgoDae8P4trUIuIw=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2019/G/2/Rj5fE9Rveqh6AAUntAyA/foto24pol-101-divida-a5.jpg",
+            "publishedAt": "2022-08-19T02:39:52Z",
+            "content": "Por Ranier Bragon, Valor — Folhapress, de Brasília\r\n 18/08/2022 23h39 Atualizado 18/08/2022"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Canaltech.com.br"
+            },
+            "author": "Canaltech",
+            "title": "Mundial de Pokémon | Um passeio pela loja oficial do evento",
+            "description": "Visitamos o Pokémon Center do Pokémon World Championships 2022 e mostramos as maravilhas que encontramos por lá",
+            "url": "https://canaltech.com.br/games/mundial-de-pokemon-um-passeio-pela-loja-oficial-do-evento-223453/",
+            "urlToImage": "https://p2.trrsf.com/image/fget/cf/1200/630/middle/images.terra.com/2022/08/19/867799439-i623615.jpg",
+            "publishedAt": "2022-08-19T01:51:56Z",
+            "content": "O Pokémon World Championships não é feito apenas de competições acirradas, celebrações e anúncios. O evento que reúne fãs e jogadores profissionais de uma das maiores franquias de entretenimento do m… [+2821 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Ig.com.br"
+            },
+            "author": "esporte@igcorp.com.br (Lance)",
+            "title": "Zé Love detona Casagrande nas redes sociais: 'Só sabe falar m****'",
+            "description": "Resposta de Zé Eduardo foi feita em uma publicação do LANCE! sobre o comentarista",
+            "url": "https://esporte.ig.com.br/2022-08-18/ze-love-detona-casagrande-nas-redes-sociais--so-sabe-falar-m.html",
+            "urlToImage": "https://i0.statig.com.br/bancodeimagens/42/eb/89/42eb89llsuhj0eb7ku0cc0r4a.jpg",
+            "publishedAt": "2022-08-19T01:39:31Z",
+            "content": "Walter Casagrande tem gerado polêmica com fortes declarações\r\nem entrevistas nas últimas semanas. No 'Bola da Vez', o ex-jogador disse que sentiu estranheza em ser tirado das transmissões dos jogos d… [+1188 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Terra.com.br"
+            },
+            "author": "LANCE!",
+            "title": "Zé Love detona Casagrande nas redes sociais: 'Só sabe falar m****'",
+            "description": "Walter Casagrande tem gerado polêmica com fortes declarações em entrevistas nas últimas semanas. ...",
+            "url": "https://www.terra.com.br/esportes/ze-love-detona-casagrande-nas-redes-sociais-so-sabe-falar-m,2352d1401854d4773f9487351de40e1ejwez8epl.html",
+            "urlToImage": "https://p2.trrsf.com/image/fget/cf/1200/630/middle/images.terra.com/2022/08/19/1765058210-62fedfaa53e03.jpeg",
+            "publishedAt": "2022-08-19T01:34:21Z",
+            "content": "Walter Casagrande tem gerado polêmica com fortes declarações em entrevistas nas últimas semanas. No 'Bola da Vez', o ex-jogador disse que sentiu estranheza em ser tirado das transmissões dos jogos da… [+939 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Uol.com.br"
+            },
+            "author": "UOL",
+            "title": null,
+            "description": "O presidente do STF (Supremo Tribunal Federal), Luiz Fux, derrubou a decisão do TRF-1 (Tribunal Regional Federal da 1ª Região) que tornava o ex-presidente da Câmara Eduardo Cunha (PTB) elegível nas eleições deste assim. Assim, Cunha está novamente inelegí",
+            "url": "https://noticias.uol.com.br/eleicoes/2022/08/18/stf-fux-suspende-eduardo-cunha-inelegivel.htm",
+            "urlToImage": "https://conteudo.imguol.com.br/c/noticias/0f/2021/04/28/ex-deputado-eduardo-cunha-em-foto-de-arquivo-1619638449460_v2_615x300.jpg",
+            "publishedAt": "2022-08-19T01:21:10Z",
+            "content": "O presidente do STF (Supremo Tribunal Federal), Luiz Fux, derrubou a decisão do TRF-1 (Tribunal Regional Federal da 1ª Região) que tornava o ex-presidente da Câmara Eduardo Cunha (PTB) elegível nas e… [+2281 chars]"
+        }
+    ]
+}
