@@ -11,7 +11,7 @@ import SwiftUI
 struct ChecklistTestAppApp: App {
     var body: some Scene {
         WindowGroup {
-            NewsContentView(newsViewModel: NewsViewModel(service: APIServiceMock()))
+            NewsContentView(newsViewModel: NewsViewModel(service: APIService()))
         }
     }
 }

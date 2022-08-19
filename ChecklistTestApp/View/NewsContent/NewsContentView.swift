@@ -13,11 +13,11 @@ struct NewsContentView: View {
     var body: some View {
         GeometryReader { metrics in
             VStack {
-                Header(metrics: metrics)
+                Header(newsViewModel: newsViewModel, metrics: metrics)
                 
                 ArticlesContent(newsViewModel: newsViewModel)
                 
-                Footer()
+                Footer(newsViewModel: newsViewModel)
             }
             .background(.white)
         }

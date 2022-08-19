@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct Header: View {
-    @State var searchText: String = ""
+    @ObservedObject var newsViewModel: NewsViewModel
     var metrics: GeometryProxy
     
     var body: some View {
@@ -45,7 +45,7 @@ struct Header: View {
                     .padding()
                     
                     HStack {
-                        TextField("Pesquise aqui", text: $searchText)
+                        TextField("Pesquise aqui", text: $newsViewModel.searchText)
                             .padding()
                             .frame(maxWidth: .infinity)
                             .frame(height: 45)
@@ -55,7 +55,7 @@ struct Header: View {
                         Spacer()
                         
                         Button {
-                            // TODO: Search
+                            newsViewModel.search()
                         } label: {
                             Image(systemName: "magnifyingglass")
                                 .font(.title2.bold())

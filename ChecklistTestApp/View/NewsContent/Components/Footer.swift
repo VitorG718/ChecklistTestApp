@@ -8,10 +8,12 @@
 import SwiftUI
 
 struct Footer: View {
+    @ObservedObject var newsViewModel: NewsViewModel
+    
     var body: some View {
         HStack {
             Button {
-                // TODO: Back page
+                newsViewModel.previousPage()
             } label: {
                 Image(systemName: "chevron.left")
                     .font(.title2.bold())
@@ -20,18 +22,19 @@ struct Footer: View {
                            maxHeight: .infinity)
             }
             .frame(width: 45, height: 45)
-            .background(Color.white)
+            .background(newsViewModel.hasPreviousPage ? Color.white : Color(uiColor: .lightGray))
             .cornerRadius(10)
+            .disabled(!newsViewModel.hasPreviousPage)
             
             Spacer()
-            Text("Páginas 1 de 5")
+            Text("Páginas \(newsViewModel.currentPage) de \(newsViewModel.totalPages)")
                 .font(.title2)
                 .fontWeight(.semibold)
                 .foregroundColor(.white)
             
             Spacer()
             Button {
-                // TODO: Next page
+                newsViewModel.nextPage()
             } label: {
                 Image(systemName: "chevron.right")
                     .font(.title2.bold())
@@ -40,8 +43,9 @@ struct Footer: View {
                            maxHeight: .infinity)
             }
             .frame(width: 45, height: 45)
-            .background(Color.white)
+            .background(newsViewModel.hasNextPage ? Color.white : Color(uiColor: .lightGray))
             .cornerRadius(10)
+            .disabled(!newsViewModel.hasNextPage)
         }
         .padding(.vertical)
         .padding(.horizontal, 32)
