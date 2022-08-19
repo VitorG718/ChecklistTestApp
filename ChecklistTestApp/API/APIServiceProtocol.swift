@@ -8,12 +8,12 @@
 import Foundation
 
 protocol APIServiceProtocol: AnyObject {
-    static func getEverythingArticles(
+    func getEverythingArticles(
         query: String?, language: String?, sortBy: String?,
         page: Int, pageSize: Int
     ) async -> SearchResult?
     
-    static func getTopHeadlineArticles(
+    func getTopHeadlineArticles(
         query: String?, country: String?, category: String?,
         page: Int, pageSize: Int
     ) async -> SearchResult?

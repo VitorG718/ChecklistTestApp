@@ -9,11 +9,11 @@ import Foundation
 import Alamofire
 
 class APIService: APIServiceProtocol {
-    static let everythingBaseUrl = "https://newsapi.org/v2/everything"
-    static let topHeadlinesBaseUrl = "https://newsapi.org/v2/top-headlines"
+    private let everythingBaseUrl = "https://newsapi.org/v2/everything"
+    private let topHeadlinesBaseUrl = "https://newsapi.org/v2/top-headlines"
     private static let appKey = ""
     
-    static func getEverythingArticles(
+    func getEverythingArticles(
         query: String?, language: String?, sortBy: String?,
         page: Int, pageSize: Int
     ) async -> SearchResult? {
@@ -27,10 +27,10 @@ class APIService: APIServiceProtocol {
         let uri = String("?")
             .appending(parameters.isEmpty ? "" : parameters)
         
-        return await APIService.getRequest(with: everythingBaseUrl, uri: uri)
+        return await getRequest(with: everythingBaseUrl, uri: uri)
     }
     
-    static func getTopHeadlineArticles(
+    func getTopHeadlineArticles(
         query: String?, country: String?, category: String?,
         page: Int, pageSize: Int
     ) async -> SearchResult? {
@@ -44,10 +44,10 @@ class APIService: APIServiceProtocol {
         let uri = String("?")
             .appending(parameters.isEmpty ? "" : parameters)
         
-        return await APIService.getRequest(with: topHeadlinesBaseUrl, uri: uri)
+        return await getRequest(with: topHeadlinesBaseUrl, uri: uri)
     }
     
-    private static func getRequest(with baseUrl: String, uri: String) async -> SearchResult? {
+    private func getRequest(with baseUrl: String, uri: String) async -> SearchResult? {
         let headers: HTTPHeaders = [
             HTTPHeader.authorization("ab454fd5e0f24ae1bcb24b97594dd3ec")
         ]

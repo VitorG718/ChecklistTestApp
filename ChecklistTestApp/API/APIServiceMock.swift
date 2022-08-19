@@ -8,7 +8,7 @@
 import Foundation
 
 class APIServiceMock: APIServiceProtocol {
-    static func getEverythingArticles(
+    func getEverythingArticles(
         query: String?, language: String?, sortBy: String?,
         page: Int, pageSize: Int
     ) async -> SearchResult? {
@@ -20,7 +20,7 @@ class APIServiceMock: APIServiceProtocol {
         return try? JSONDecoder().decode(SearchResult.self, from: data)
     }
     
-    static func getTopHeadlineArticles(
+    func getTopHeadlineArticles(
         query: String?, country: String?, category: String?,
         page: Int, pageSize: Int
     ) async -> SearchResult? {
