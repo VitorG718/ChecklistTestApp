@@ -32,7 +32,7 @@ struct Header: View {
                         Spacer()
                         
                         Button {
-                            // TODO: Filter
+                            newsViewModel.showFilterView = true
                         } label: {
                             Image(systemName: "line.3.horizontal.decrease.circle.fill")
                                 .font(.title2.bold())

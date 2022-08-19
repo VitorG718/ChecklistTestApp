@@ -21,6 +21,11 @@ struct NewsContentView: View {
             }
             .background(.white)
         }
+        .sheet(isPresented: $newsViewModel.showFilterView, onDismiss: {
+            newsViewModel.search()
+        }, content: {
+            FilterView(newsViewModel: newsViewModel)
+        })
     }
 }
 
